@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: black;
+  color: white;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+  font-family: monospace;
+}
+
+button {
+  display: block;
+  margin-bottom: 20px;
+}
+
+#result {
+  margin-top: 20px;
+}
+
+pre {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+div {
+  padding: 5px;
+  margin: 2px 0;
+}
+
+.highlight-added {
+  background-color: #d4f8d4;
+  border: 2px solid green;
+  padding: 5px;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  display: block;
+}
+
+.highlight-removed {
+  background-color: #f8d4d4;
+  border: 2px solid red;
+  padding: 5px;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  display: block;
+}
